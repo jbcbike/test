@@ -1,0 +1,23 @@
+## FFmpeg
+./configure --prefix=/usr        \
+            --enable-gpl         \
+            --enable-version3    \
+            --enable-nonfree     \
+            --disable-static     \
+            --enable-shared      \
+            --disable-debug      \
+            --enable-libaom      \
+            --enable-libass      \
+            --enable-libfdk-aac  \
+            --enable-libfreetype \
+            --enable-libmp3lame  \
+            --enable-libopus     \
+            --enable-libvorbis   \
+            --enable-libvpx      \
+            --enable-libx264     \
+            --enable-libx265     \
+            --enable-openssl     \
+            --enable-libdav1d    \
+            --enable-libsvtav1   \
+            --ignore-tests=enhanced-flv-av1,enhanced-flv-multitrack \
+            --docdir=/usr/share/doc/ffmpeg-9.0.1
