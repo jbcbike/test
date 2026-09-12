@@ -1,3 +1,6 @@
+Ref for lib
+https://linuxfromscratch.org/blfs/view/svn/index.html
+
 ## FFmpeg
 ./configure --prefix=/usr        \
             --enable-gpl         \
